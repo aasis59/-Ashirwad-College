@@ -2,8 +2,8 @@ import { Typography } from "@material-tailwind/react";
 
 function Why_we() {
   return (
-    <section className="my-8   ">
-      <div className="page-width flex flex-col md:flex-row gap-2 justify-center items-center ">
+    <section className="my-8 p-3 md:p-10    ">
+      <div className="  flex flex-col md:flex-row gap-2 justify-center items-center px-3 ">
       <div className="md:flex-[1.5] border rounded-md overflow-hidden">
   <div className="border-gradient border-l-4 border-r-4 border-t-0 border-b-0 border-opacity-100 border-blue-500 border-solid p-4">
     <Typography variant="h2" color="blue-gray" textGradient>

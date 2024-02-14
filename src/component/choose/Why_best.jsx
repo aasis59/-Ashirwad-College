@@ -2,11 +2,11 @@ import { Typography } from "@material-tailwind/react";
 
 function Why_best() {
   return (
-    <section className=" back_ground_one py-10 px-20">
-      <div className="text-center mb-10">
+    <section className=" back_ground_one py-2 px-4 md:py-10 md:px-20">
+      <div className="text-center mb-2 md:mb-10">
         <Typography variant="h2">WHY WE ARE THE BEST?</Typography>
       </div>
-      <div className="grid grid-cols-1 grid-rows-1 md:grid-cols-2 md:grid-rows-2 gap-5 page-width bg-white rounded-lg shadow-lg shadow-cyan-900/100  mt-10 p-20 ">
+      <div className="grid grid-cols-1 grid-rows-1 md:grid-cols-2 md:grid-rows-2 gap-5  bg-white rounded-lg shadow-lg shadow-cyan-900/100 mt-2 md:mt-10 p-5 md:p-20 ">
         <div>
           <Typography variant="h4" color="blue" textGradient>
           <span className="mr-3">[ ]</span> ACADEMIC EXCELLENCE
