@@ -15,7 +15,7 @@ function App() {
    <Gridimage/>
    <Courses/>
    <Why_best/>
-   <Why_we/>
+   
 
    
     </>
