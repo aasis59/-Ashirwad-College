@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-width {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+   
+  }
+  .back_ground{
+    background-color: #03002E;
+    color: white;
+  }
+ 
+  .color-burn-blend {
+    mix-blend-mode: color-burn;
+  }
+  .back_ground_one{
+    background-color: #d3e4fe;
+    color: black;
+  }
