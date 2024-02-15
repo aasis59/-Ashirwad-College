@@ -5,8 +5,7 @@
 .page-width {
     max-width: 1400px;
     margin: 0 auto;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    
    
   }
   
@@ -20,5 +19,9 @@
   }
   .back_ground_one{
     background-color: #d3e4fe;
+    color: black;
+  }
+  .back_ground_two{
+    background-color: #eeeee4;
     color: black;
   }
