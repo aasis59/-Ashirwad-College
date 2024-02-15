@@ -18,9 +18,9 @@ function Courses() {
       Popular Courses
     </Typography>
       </div>
-    <div className="grid grid-cols-1 grid-rows-1 gap:2  md:grid-cols-3 md:grid-rows-1 md:gap-5 page-width  ">
+    <div className="grid grid-cols-1 grid-rows-1 gap:2  md:grid-cols-3 md:grid-rows-1 md:gap-5 page-width " style={{ width:'50%' }}>
     <div>
-        <Card className=" mt-10 md:mt-15 " >
+        <Card className=" mt-10   " >
           <CardHeader color="blue-gray" className="relative ">
             <img src={plustwo} alt="card-image" className=" w-full h-auto object-cover" />
           </CardHeader>
@@ -34,7 +34,7 @@ function Courses() {
               +2 management is a two years course. This provides the basic
               principles and knowledge about the management stream. This course
               of higher secondary level aims to set a base for students and
-              motivates them to build their career in the management field.
+              motivates them to build their career in the management field. To develop students into dynamic managers having ability to handle responsibility in every sector.
             </Typography>
           </CardBody>
           <CardFooter className="pt-0">
