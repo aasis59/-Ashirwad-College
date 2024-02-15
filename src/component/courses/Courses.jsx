@@ -22,7 +22,7 @@ function Courses() {
     <div>
         <Card className=" mt-10   " >
           <CardHeader color="blue-gray" className="relative ">
-            <img src={plustwo} alt="card-image" className=" w-full h-auto object-cover" />
+            <img src={plustwo} alt="card-image" className=" w-full h-auto object-cover" preload="true" />
           </CardHeader>
           <CardBody>
             <Typography variant="h6" color="blue-gray" className="mb-2">
@@ -45,7 +45,7 @@ function Courses() {
       <div className="">
         <Card className=" mt-10 md:mt-15 ">
           <CardHeader color="blue-gray" className="relative ">
-            <img src={bbs} alt="card-image" className="w-full h-auto object-cover" />
+            <img src={bbs} alt="card-image" className="w-full h-auto object-cover" preload="true" />
           </CardHeader>
           <CardBody>
             <Typography variant="h6" color="blue-gray" className="mb-2">
@@ -69,7 +69,7 @@ function Courses() {
       <div className="">
         <Card className=" mt-10 md:mt-15 ">
           <CardHeader color="blue-gray" className="relative">
-            <img src={bbm} alt="card-image" className=" w-full h-auto object-cover" />
+            <img src={bbm} alt="card-image" className=" w-full h-auto object-cover" preload="true" />
           </CardHeader>
           <CardBody>
             <Typography variant="h6" color="blue-gray" className="mb-2">

@@ -4,10 +4,14 @@ import main from "../../assets/images/main.jpg";
 import image3 from "../../assets/images/image3.jpg";
 import image2 from "../../assets/images/image2.jpg";
 
+
 function Gridimage() {
+  
+
+  
   return (
     <section className=" back_ground rounded-xl">
-      <div className=" flex flex-col sm:flex-col md:flex-row">
+      <div className=" flex flex-col sm:flex-col md:flex-row" style={{ height: '690px' }}>
         <div className="w-full sm:w-full md:w-[40%] flex flex-col justify-center items-center p-5 ">
           <Typography variant="h2">
             Knowledge is Power,
@@ -52,25 +56,29 @@ function Gridimage() {
               src={main}
               alt="Image 1"
               className="w-full h-full object-cover rounded-tl-[90px] rounded-md"
+              preload="true"
             />
           </div>
           <div className="col-span-2 row-span-3 col-start-2">
             <img
-              src={image1}
+             src={image1}
               alt="Image 2"
               className="w-full h-full object-cover rounded-md "
+              preload="true"
             />
           </div>
           <div className="row-span-3 col-start-2 row-start-4">
             <img
-              src={image3}
+               src={image2 }
               alt="Image 3"
               className="w-full h-full object-cover rounded-md"
+              preload="true"
             />
           </div>
           <div className="row-span-3 col-start-3 row-start-4">
             <img
-              src={image2}
+               src={ image3 }
+               preload="true"
               alt="Image 4"
               className="w-full h-full object-cover rounded-md"
             />
