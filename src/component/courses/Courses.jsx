@@ -18,7 +18,7 @@ function Courses() {
       Popular Courses
     </Typography>
       </div>
-    <div className="grid grid-cols-1 grid-rows-1 gap:2  md:grid-cols-3 md:grid-rows-1 md:gap-5 page-width " style={{ width:'50%' }}>
+    <div className="grid grid-cols-1 grid-rows-1 gap:2  md:grid-cols-3 md:grid-rows-1 md:gap-5 page-width w-full  lg:w-[60%] ">
     <div>
         <Card className=" mt-10   " >
           <CardHeader color="blue-gray" className="relative ">
