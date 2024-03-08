@@ -36,3 +36,13 @@
     align-items: center;
     justify-content: center;
   }
+  .gmail-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    background-color: #d93025; /* Gmail red */
+    color: #fff; /* White color for icon */
+    border-radius: 50%; /* Rounded shape */
+  }
